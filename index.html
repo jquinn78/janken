@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <script>
+    function computerPlay(){
+      let result = "";
+      let choices = ["Rock", "Paper", "Scissors"];
+
+      for (let i = 0; i < choices.length; i++){
+        let randomIndex = Math.floor(Math.random() * choices.length);
+        result = choices[randomIndex];
+        
+      }
+      return result;
+      
+    }
+  </script>
+</body>
+</html>
